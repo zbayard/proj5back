@@ -1,4 +1,5 @@
 Artist.destroy_all
+Review.destroy_all
 
 Artist.create(
 name: "Hundreds Thousands", 
@@ -16,11 +17,48 @@ rate: 100,
 feature:"https://www.youtube.com/watch?v=bN8P2kx4kr8",
 likes: 0
 )
-# Artist.create(name:, image:, bio:, type:, genre:, ig:, youtube:, spotify:, soundcloud:, facebook:, website:, rate:, feature:, likes: 0)
-# Artist.create(name:, image:, bio:, type:, genre:, ig:, youtube:, spotify:, soundcloud:, facebook:, website:, rate:, feature:, likes: 0)
-# Artist.create(name:, image:, bio:, type:, genre:, ig:, youtube:, spotify:, soundcloud:, facebook:, website:, rate:, feature:, likes: 0)
-# Artist.create(name:, image:, bio:, type:, genre:, ig:, youtube:, spotify:, soundcloud:, facebook:, website:, rate:, feature:, likes: 0)
-# Artist.create(name:, image:, bio:, type:, genre:, ig:, youtube:, spotify:, soundcloud:, facebook:, website:, rate:, feature:, likes: 0)
-# Artist.create(name:, image:, bio:, type:, genre:, ig:, youtube:, spotify:, soundcloud:, facebook:, website:, rate:, feature:, likes: 0)
+
+User.create(
+    name: "Zach Bayard",
+    age: "26",
+    image: "https://img.huffingtonpost.com/asset/5d93c38e2100006901513787.jpeg?cache=lUxhqgE0ri&ops=scalefit_720_noupscale",
+    city: "Brooklyn",
+    state: "New York",
+    bio: "I like turtles",
+    username: "zachbayard",
+    password: "abc123"
+
+
+)
+
+Review.create(
+    user_id: 1,
+    artist_id: 1,
+    rating: 1,
+    comment: "this dudes hair is so pretty but he was kinda a douche"
+
+
+)
+
+
+
+Booking.create(
+    user_id: 1,
+    artist_id: 1,
+    address: "75 Graham Avenue",
+    city: "Brooklyn",
+    state: "New York",
+    date: Time.new(2020,2,27),
+    start_time: Time.now,
+    end_time: Time.now,
+    payment: 100
+
+)
+
+
+
+
+
+
 
 puts "artists bby"
