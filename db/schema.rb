@@ -41,8 +41,8 @@ ActiveRecord::Schema.define(version: 2021_02_22_212301) do
     t.string "city"
     t.string "state"
     t.date "date"
-    t.time "start_time"
-    t.time "end_time"
+    t.string "start_time"
+    t.string "end_time"
     t.integer "payment"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

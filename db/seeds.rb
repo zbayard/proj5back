@@ -49,8 +49,8 @@ Booking.create(
     city: "Brooklyn",
     state: "New York",
     date: Time.new(2020,2,27),
-    start_time: Time.now,
-    end_time: Time.now,
+    start_time: "11:00PM",
+    end_time: "12:00AM",
     payment: 100
 
 )
