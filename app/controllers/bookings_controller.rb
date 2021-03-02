@@ -6,6 +6,7 @@ class BookingsController < ApplicationController
     end
 
     def create
+        
         @booking = Booking.create(booking_params)
         render json: @booking
     end
