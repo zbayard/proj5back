@@ -88,22 +88,74 @@ feature:"https://www.youtube.com/watch?v=Xg38srZSyCg",
 likes: 0
 )
 
-# Artist.create(
-# name: "", 
-# image: "",
-# bio:"",
-# type: "",
-# genre:"",
-# ig:"",
-# youtube:"",
-# spotify:"",
-# soundcloud:"",
-# facebook:"",
-# website:"",
-# rate: 150,
-# feature:"",
-# likes: 0
-# )
+Artist.create(
+name: "Spurge", 
+image: "http://static1.squarespace.com/static/5819ce6d197aea1a94cfb2f4/t/5bc4a9410d9297cb38a31ff2/1539615054586/image1.jpeg?format=1500w",
+bio:"I hope you're maintaining your spirit",
+type: "dj",
+genre:"soul/house",
+ig:"",
+youtube:"",
+spotify:"",
+soundcloud:"",
+facebook:"",
+website:"",
+rate: 150,
+feature:"",
+likes: 0
+)
+
+
+Artist.create(
+name: "JERM", 
+image: "https://i1.sndcdn.com/avatars-wnBYQzHhHkBy8ZAz-S19paA-t500x500.jpg",
+bio:"curating sounds of the colors",
+type: "dj",
+genre:"deep house",
+ig:"",
+youtube:"",
+spotify:"",
+soundcloud:"",
+facebook:"",
+website:"",
+rate: 100,
+feature:"",
+likes: 0
+)
+
+Artist.create(
+name: "Locke", 
+image: "https://i1.sndcdn.com/avatars-eKzl6BQztqX6N1Vo-zcXPqA-t500x500.jpg",
+bio:"I like turtles",
+type: "dj",
+genre:"organic house",
+ig:"",
+youtube:"",
+spotify:"",
+soundcloud:"",
+facebook:"",
+website:"",
+rate: 150,
+feature:"",
+likes: 0
+)
+
+Artist.create(
+name: "Carey", 
+image: "https://i1.sndcdn.com/avatars-sesHelqwAf3IEPl6-KdYvfQ-t500x500.jpg",
+bio:"",
+type: "dj",
+genre:"deep house",
+ig:"",
+youtube:"",
+spotify:"",
+soundcloud:"",
+facebook:"",
+website:"",
+rate: 100,
+feature:"",
+likes: 0
+)
 
 
 
@@ -114,11 +166,14 @@ User.create(
     city: "Brooklyn",
     state: "New York",
     bio: "I like turtles",
-    username: "zachbayard",
+    username: "zbayard",
     password: "abc123"
 
 
 )
+
+
+
 
 Review.create(
     user_id: 1,
